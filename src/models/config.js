@@ -8,8 +8,8 @@ var Config = new Schema({
   ga_id: String,
   // comma delimited
   popular_queries: String,
-  logo: { type: String, default: '/assets/images/logo.jpg' },
-  title: { type: String, default: 'ItemsAPI starter' },
+  logo: { type: String, default: '/assets/images/masco-logo.jpg' },
+  title: { type: String, default: 'Product Finder' },
   recommendation_field: { type: String, default: 'tags' },
   fallback_image: { type: String, default: 'http://placehold.it/300x400' },
   step: { type: Number, default: 2 },
