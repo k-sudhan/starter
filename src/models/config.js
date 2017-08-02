@@ -14,7 +14,8 @@ var Config = new Schema({
   fallback_image: { type: String, default: 'http://placehold.it/300x400' },
   step: { type: Number, default: 2 },
   is_sitemap: { type: Boolean, default: true },
-  hints: { type: Boolean, default: true },
+  //Add true to show hints.  To change this layout go to: /views/catalog.html.twig
+  hints: { type: Boolean, default: false }, 
   is_installation: { type: Boolean, default: true },
   // is item auto enabled after user form request
   item_auto_enabled: { type: Boolean, default: true },
